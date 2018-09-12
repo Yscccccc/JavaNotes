@@ -106,6 +106,8 @@ System.out.println(m == n); // true
 
 在使用这些基本类型对应的包装类型时，就可以直接使用缓冲池中的对象。
 
+[深入剖析Java中的装箱和拆箱（缓存池技术）](https://www.cnblogs.com/Pjson/p/8777940.html)
+
 ## 3.String
 
 （1）String简介
@@ -1309,8 +1311,8 @@ public class Music {
 参考：
 
 - [Java 中的浅拷贝与深拷贝](https://www.oschina.net/translate/java-copy-shallow-vs-deep-in-which-you-will-swim)	
-- [ 浅拷贝和深拷贝(谈谈java中的clone)](https://blog.csdn.net/u014727260/article/details/55003402)	
-- [【Java深入】深拷贝与浅拷贝详解](https://blog.csdn.net/baiye_xing/article/details/71788741)	
+	 [ 浅拷贝和深拷贝(谈谈java中的clone)](https://blog.csdn.net/u014727260/article/details/55003402)	
+	 [【Java深入】深拷贝与浅拷贝详解](https://blog.csdn.net/baiye_xing/article/details/71788741)	
 
 ## 23.Proxy代理
 
@@ -1362,10 +1364,16 @@ java内部类有什么好处？为什么需要内部类？
 
 - [高性能IO之Reactor模式](https://www.cnblogs.com/doit8791/p/7461479.html)
 - [Reactor（反应器）模式初探](https://blog.csdn.net/pistolove/article/details/53152708)
+- [IO复用,AIO,BIO,NIO,同步，异步，阻塞和非阻塞 区别(百度)](https://www.cnblogs.com/aspirant/p/6877350.html?utm_source=itdadao&utm_medium=referral)
+- [Netty与Reactor模式详解](https://my.oschina.net/hutaishi/blog/1855072)
 
 ## 28.内存泄露和内存溢出
 
 [内存泄漏和内存溢出的区别和联系](https://blog.csdn.net/ruiruihahaha/article/details/70270574)
+
+## 29.java多线程特性
+
+[Java多线程中提到的原子性和可见性、有序性](https://blog.csdn.net/jaryle/article/details/51442192)
 
 # 二、jvm
 
@@ -1650,3 +1658,9 @@ public class FileSystemClassLoader extends ClassLoader {
 # 三、spring
 
 [Java面试中常问的Spring问题，你都会吗？](https://zhuanlan.zhihu.com/p/42092555)
+
+[jdbc,mybatis,hibernate各自优缺点及区别](https://www.cnblogs.com/rzqz/p/7266092.html)
+
+[mybatis,hibernate](https://www.cnblogs.com/inspurhaitian/p/4647485.html)
+
+[SpringMvc线程安全问题（个人感悟）](https://blog.csdn.net/sunmingliang0603/article/details/79752074)
